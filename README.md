@@ -9,7 +9,7 @@
 
 ## Présentation
 
-La librairie `taxi_driver` permet de modéliser le problème suivant [(Lien vers le sujet)](https://github.com/CDucloux/Taxi-company/blob/main/Sujet.md) en termes de *graphe pondéré*.
+La librairie `taxi-driver` permet de modéliser le problème suivant [(Lien vers le sujet)](https://github.com/CDucloux/Taxi-company/blob/main/Sujet.md) en termes de *graphe pondéré*.
 
 Elle répondra aux exigeances suivantes :
 - [x] Déterminer le chemin le plus court de la compagnie de taxi à l'aéroport
