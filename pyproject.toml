@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "taxi-company"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "taxi_company"}]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^3.0"
+matplotlib = "^3.7.1"
+typer = "^0.7.0"
+rich = "^13.3.4"
+
+
+[tool.poetry.group.dev-dependencies.dependencies]
+pytest = "^7.3.1"
+typer = "^0.7.0"
+networkx = "^3.1"
+matplotlib = "^3.7.1"
+rich = "^13.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
