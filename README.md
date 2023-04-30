@@ -23,6 +23,8 @@ Elle répondra aux exigeances suivantes :
 
 ### Utilisation de la **Command Line Interface**
 
+<img src="/imgs/launch_venv.png">
+
 ```python
 py -m app emplacements
 ```
